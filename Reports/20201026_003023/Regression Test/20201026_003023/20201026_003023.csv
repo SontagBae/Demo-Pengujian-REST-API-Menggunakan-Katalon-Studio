@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression Test,,,,2020-10-26 00:30:29,2020-10-26 00:30:58,"28,920s",PASSED
+,,,,,,,
+Test Cases/TC01-Validation Response And Verify JSON Value,,,,2020-10-26 00:30:30,2020-10-26 00:30:40,"9,722s",PASSED
+"sendRequest(findTestObject(""GET/Get List User""))",,Mengirim Request,,2020-10-26 00:30:32,2020-10-26 00:30:36,"4,808s",PASSED
+"response = sendRequestAndVerify(findTestObject(""GET/Get List User""))",,Mengirim Request Dan Verifikasi Response,,2020-10-26 00:30:36,2020-10-26 00:30:39,"3,001s",PASSED
+"verifyResponseStatusCode(response, 200)",,Verifikasi Response Status Code,,2020-10-26 00:30:39,2020-10-26 00:30:40,"0,103s",PASSED
+"verifyElementsCount(response, ""data.first_name"", 6)",,Verifikasi Jumlah Element Yang Ada Pada JSON,,2020-10-26 00:30:40,2020-10-26 00:30:40,"0,226s",PASSED
+"verifyElementPropertyValue(response, ""data[4].first_name"", ""Charles"")",,Verifikasi Elemen Pada JSON,,2020-10-26 00:30:40,2020-10-26 00:30:40,"0,132s",PASSED
+,,,,,,,
+Test Cases/TC02-Validation Response Create User,,,,2020-10-26 00:30:40,2020-10-26 00:30:44,"3,873s",PASSED
+"sendRequest(findTestObject(""POST/POST Create User""))",,Mengirimkan Request,,2020-10-26 00:30:41,2020-10-26 00:30:42,"1,272s",PASSED
+"response = sendRequestAndVerify(findTestObject(""POST/POST Create User""))",,Mengirimkan Request Dan Memverifikasi Response,,2020-10-26 00:30:42,2020-10-26 00:30:44,"1,635s",PASSED
+"verifyResponseStatusCode(response, 201)",,Memverifikasi Respon Status Code,,2020-10-26 00:30:44,2020-10-26 00:30:44,"0,057s",PASSED
+,,,,,,,
+Test Cases/TC03-Validation Resrponse Register Sucsessfull,,,,2020-10-26 00:30:44,2020-10-26 00:30:48,"3,682s",PASSED
+"sendRequest(findTestObject(""POST/POST Register Sucsessfull""))",,Mengirimkan Request,,2020-10-26 00:30:45,2020-10-26 00:30:46,"1,226s",PASSED
+"response = sendRequestAndVerify(findTestObject(""POST/POST Register Sucsessfull""))",,Mengirimkan Request Dan Verifikasi Response,,2020-10-26 00:30:46,2020-10-26 00:30:48,"1,432s",PASSED
+"verifyResponseStatusCode(response, 200)",,Memverifikasi Response Status Code,,2020-10-26 00:30:48,2020-10-26 00:30:48,"0,133s",PASSED
+,,,,,,,
+Test Cases/TC04-Validation Response Login Sucsessfull,,,,2020-10-26 00:30:48,2020-10-26 00:30:51,"3,683s",PASSED
+"sendRequest(findTestObject(""POST/POST Login Sucsessfull""))",,Mengirimkan Request,,2020-10-26 00:30:49,2020-10-26 00:30:50,"1,115s",PASSED
+"response = sendRequestAndVerify(findTestObject(""POST/POST Login Sucsessfull""))",,Mengirimkan Request dan Verifikasi Response,,2020-10-26 00:30:50,2020-10-26 00:30:51,"1,559s",PASSED
+"verifyResponseStatusCode(response, 200)",,Memverifikasi Response Status Code,,2020-10-26 00:30:51,2020-10-26 00:30:51,"0,003s",PASSED
+,,,,,,,
+Test Cases/TC05-Validation Response Update User,,,,2020-10-26 00:30:51,2020-10-26 00:30:55,"3,456s",PASSED
+"sendRequest(findTestObject(""PUT/PUT Update User""))",,Mengirimkan Request,,2020-10-26 00:30:52,2020-10-26 00:30:53,"1,016s",PASSED
+"response = sendRequestAndVerify(findTestObject(""PUT/PUT Update User""))",,Mengirimkan Dan Memverifikasi Request Dan Response,,2020-10-26 00:30:53,2020-10-26 00:30:55,"1,423s",PASSED
+"verifyResponseStatusCode(response, 200)",,Memverifikasi Response Status Code,,2020-10-26 00:30:55,2020-10-26 00:30:55,"0,005s",PASSED
+,,,,,,,
+Test Cases/TC06-Validation Response Delete User,,,,2020-10-26 00:30:55,2020-10-26 00:30:58,"3,427s",PASSED
+"sendRequest(findTestObject(""DELETE/Delete User""))",,Mengirimkan Request,,2020-10-26 00:30:56,2020-10-26 00:30:57,"1,166s",PASSED
+"response = sendRequestAndVerify(findTestObject(""DELETE/Delete User""))",,Mengirimkan Request Dan Memverifikasi Response,,2020-10-26 00:30:57,2020-10-26 00:30:58,"1,347s",PASSED
+"verifyResponseStatusCode(response, 204)",,Memverifikasi Response Status Code,,2020-10-26 00:30:58,2020-10-26 00:30:58,"0,006s",PASSED

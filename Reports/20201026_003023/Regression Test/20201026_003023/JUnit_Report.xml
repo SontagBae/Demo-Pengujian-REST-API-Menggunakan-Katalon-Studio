@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression Test" time="32.294" tests="6" failures="0" errors="0">
+   <testsuite name="Regression Test" tests="6" failures="0" errors="0" time="32.294" timestamp="2020-10-26 00:30:29" hostname="LENOVO - DESKTOP-4V7KC2B" id="Test Suites/Regression Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\git\\Demo-Pengujian-REST-API-Menggunakan-Katalon-Studio\\Reports\\20201026_003023\\Regression Test\\20201026_003023"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\git\\Demo-Pengujian-REST-API-Menggunakan-Katalon-Studio\\Reports\\20201026_003023\\Regression Test\\20201026_003023\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LENOVO - DESKTOP-4V7KC2B"/>
+         <property name="hostAddress" value="192.168.1.21"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.2.205"/>
+      </properties>
+      <testcase name="Test Cases/TC01-Validation Response And Verify JSON Value" time="9.722" classname="Test Cases/TC01-Validation Response And Verify JSON Value" status="PASSED">
+         <system-out><![CDATA[2020-10-26 00:30:30 - [TEST_CASE][PASSED] - Test Cases/TC01-Validation Response And Verify JSON Value: Test Cases/TC01-Validation Response And Verify JSON Value
+
+2020-10-26 00:30:32 - [TEST_STEP][PASSED] - sendRequest(findTestObject("GET/Get List User")): Send request successfully
+
+2020-10-26 00:30:36 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\git\Demo-Pengujian-REST-API-Menggunakan-Katalon-Studio\Reports\20201026_003023\Regression Test\20201026_003023\requests\main\0.har
+
+2020-10-26 00:30:36 - [MESSAGE][PASSED] - Send request successfully
+
+2020-10-26 00:30:36 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("GET/Get List User")): Send request and verify the response successfully
+
+2020-10-26 00:30:37 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\git\Demo-Pengujian-REST-API-Menggunakan-Katalon-Studio\Reports\20201026_003023\Regression Test\20201026_003023\requests\main\1.har
+
+2020-10-26 00:30:37 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-10-26 00:30:38 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-10-26 00:30:38 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-10-26 00:30:38 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-10-26 00:30:38 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-10-26 00:30:39 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-10-26 00:30:39 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2020-10-26 00:30:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[4].first_name", "Charles"): Verify element property value successfully
+
+2020-10-26 00:30:39 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-10-26 00:30:39 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-10-26 00:30:39 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2020-10-26 00:30:39 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-10-26 00:30:40 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-10-26 00:30:40 - [TEST_STEP][PASSED] - verifyElementsCount(response, "data.first_name", 6): Verify element count successfully
+
+2020-10-26 00:30:40 - [MESSAGE][PASSED] - Verify element count successfully
+
+2020-10-26 00:30:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[4].first_name", "Charles"): Verify element property value successfully
+
+2020-10-26 00:30:40 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02-Validation Response Create User" time="3.873" classname="Test Cases/TC02-Validation Response Create User" status="PASSED">
+         <system-out><![CDATA[2020-10-26 00:30:40 - [TEST_CASE][PASSED] - Test Cases/TC02-Validation Response Create User: Test Cases/TC02-Validation Response Create User
+
+2020-10-26 00:30:41 - [TEST_STEP][PASSED] - sendRequest(findTestObject("POST/POST Create User")): Send request successfully
+
+2020-10-26 00:30:42 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\git\Demo-Pengujian-REST-API-Menggunakan-Katalon-Studio\Reports\20201026_003023\Regression Test\20201026_003023\requests\main\2.har
+
+2020-10-26 00:30:42 - [MESSAGE][PASSED] - Send request successfully
+
+2020-10-26 00:30:42 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("POST/POST Create User")): Send request and verify the response successfully
+
+2020-10-26 00:30:43 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\git\Demo-Pengujian-REST-API-Menggunakan-Katalon-Studio\Reports\20201026_003023\Regression Test\20201026_003023\requests\main\3.har
+
+2020-10-26 00:30:43 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-10-26 00:30:43 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-10-26 00:30:43 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-10-26 00:30:43 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2020-10-26 00:30:43 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-10-26 00:30:43 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(201): null
+
+2020-10-26 00:30:44 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2020-10-26 00:30:44 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-10-26 00:30:44 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2020-10-26 00:30:44 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2020-10-26 00:30:44 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC03-Validation Resrponse Register Sucsessfull" time="3.682" classname="Test Cases/TC03-Validation Resrponse Register Sucsessfull" status="PASSED">
+         <system-out><![CDATA[2020-10-26 00:30:44 - [TEST_CASE][PASSED] - Test Cases/TC03-Validation Resrponse Register Sucsessfull: Test Cases/TC03-Validation Resrponse Register Sucsessfull
+
+2020-10-26 00:30:45 - [TEST_STEP][PASSED] - sendRequest(findTestObject("POST/POST Register Sucsessfull")): Send request successfully
+
+2020-10-26 00:30:46 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\git\Demo-Pengujian-REST-API-Menggunakan-Katalon-Studio\Reports\20201026_003023\Regression Test\20201026_003023\requests\main\4.har
+
+2020-10-26 00:30:46 - [MESSAGE][PASSED] - Send request successfully
+
+2020-10-26 00:30:46 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("POST/POST Register Sucsessfull")): Send request and verify the response successfully
+
+2020-10-26 00:30:47 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\git\Demo-Pengujian-REST-API-Menggunakan-Katalon-Studio\Reports\20201026_003023\Regression Test\20201026_003023\requests\main\5.har
+
+2020-10-26 00:30:47 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-10-26 00:30:47 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-10-26 00:30:47 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-10-26 00:30:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-10-26 00:30:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-10-26 00:30:47 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-10-26 00:30:48 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2020-10-26 00:30:48 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-10-26 00:30:48 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2020-10-26 00:30:48 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-10-26 00:30:48 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC04-Validation Response Login Sucsessfull" time="3.683" classname="Test Cases/TC04-Validation Response Login Sucsessfull" status="PASSED">
+         <system-out><![CDATA[2020-10-26 00:30:48 - [TEST_CASE][PASSED] - Test Cases/TC04-Validation Response Login Sucsessfull: Test Cases/TC04-Validation Response Login Sucsessfull
+
+2020-10-26 00:30:49 - [TEST_STEP][PASSED] - sendRequest(findTestObject("POST/POST Login Sucsessfull")): Send request successfully
+
+2020-10-26 00:30:50 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\git\Demo-Pengujian-REST-API-Menggunakan-Katalon-Studio\Reports\20201026_003023\Regression Test\20201026_003023\requests\main\6.har
+
+2020-10-26 00:30:50 - [MESSAGE][PASSED] - Send request successfully
+
+2020-10-26 00:30:50 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("POST/POST Login Sucsessfull")): Send request and verify the response successfully
+
+2020-10-26 00:30:51 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\git\Demo-Pengujian-REST-API-Menggunakan-Katalon-Studio\Reports\20201026_003023\Regression Test\20201026_003023\requests\main\7.har
+
+2020-10-26 00:30:51 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-10-26 00:30:51 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-10-26 00:30:51 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-10-26 00:30:51 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-10-26 00:30:51 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-10-26 00:30:51 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-10-26 00:30:51 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2020-10-26 00:30:51 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-10-26 00:30:51 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2020-10-26 00:30:51 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-10-26 00:30:51 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC05-Validation Response Update User" time="3.456" classname="Test Cases/TC05-Validation Response Update User" status="PASSED">
+         <system-out><![CDATA[2020-10-26 00:30:51 - [TEST_CASE][PASSED] - Test Cases/TC05-Validation Response Update User: Test Cases/TC05-Validation Response Update User
+
+2020-10-26 00:30:52 - [TEST_STEP][PASSED] - sendRequest(findTestObject("PUT/PUT Update User")): Send request successfully
+
+2020-10-26 00:30:53 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\git\Demo-Pengujian-REST-API-Menggunakan-Katalon-Studio\Reports\20201026_003023\Regression Test\20201026_003023\requests\main\8.har
+
+2020-10-26 00:30:53 - [MESSAGE][PASSED] - Send request successfully
+
+2020-10-26 00:30:53 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("PUT/PUT Update User")): Send request and verify the response successfully
+
+2020-10-26 00:30:54 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\git\Demo-Pengujian-REST-API-Menggunakan-Katalon-Studio\Reports\20201026_003023\Regression Test\20201026_003023\requests\main\9.har
+
+2020-10-26 00:30:55 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-10-26 00:30:55 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-10-26 00:30:55 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-10-26 00:30:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-10-26 00:30:55 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-10-26 00:30:55 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-10-26 00:30:55 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2020-10-26 00:30:55 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-10-26 00:30:55 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2020-10-26 00:30:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-10-26 00:30:55 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC06-Validation Response Delete User" time="3.427" classname="Test Cases/TC06-Validation Response Delete User" status="PASSED">
+         <system-out><![CDATA[2020-10-26 00:30:55 - [TEST_CASE][PASSED] - Test Cases/TC06-Validation Response Delete User: Test Cases/TC06-Validation Response Delete User
+
+2020-10-26 00:30:56 - [TEST_STEP][PASSED] - sendRequest(findTestObject("DELETE/Delete User")): Send request successfully
+
+2020-10-26 00:30:57 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\git\Demo-Pengujian-REST-API-Menggunakan-Katalon-Studio\Reports\20201026_003023\Regression Test\20201026_003023\requests\main\10.har
+
+2020-10-26 00:30:57 - [MESSAGE][PASSED] - Send request successfully
+
+2020-10-26 00:30:57 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("DELETE/Delete User")): Send request and verify the response successfully
+
+2020-10-26 00:30:58 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\git\Demo-Pengujian-REST-API-Menggunakan-Katalon-Studio\Reports\20201026_003023\Regression Test\20201026_003023\requests\main\11.har
+
+2020-10-26 00:30:58 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-10-26 00:30:58 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-10-26 00:30:58 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-10-26 00:30:58 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 204): Verify response status code successfully
+
+2020-10-26 00:30:58 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-10-26 00:30:58 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(204): null
+
+2020-10-26 00:30:58 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202, 204)): null
+
+2020-10-26 00:30:58 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-10-26 00:30:58 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2020-10-26 00:30:58 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 204): Verify response status code successfully
+
+2020-10-26 00:30:58 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-26 00:30:29 - [TEST_SUITE][PASSED] - Regression Test: Test Cases/TC06-Validation Response Delete User]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
